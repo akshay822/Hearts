@@ -1,0 +1,56 @@
+#player_div {
+    position: absolute;
+    top:7%;
+    left:2%;
+    height: 100px;
+    width: 200px;
+    border: thin solid black;
+}
+
+.click_player_message_log {
+    width: 600px;
+    height: 500px;
+    overflow: auto;
+    border: thin solid black;
+}
+
+.click_player_input {
+    width: 90%;
+    margin-left: 5%;
+}
+body{
+  background-color: #008000;
+}
+
+#eastplayer, #westplayer, #northplayer, #yourcards{
+  display:flex;
+  flex-direction: column;
+}
+
+.iamnorthplayer, .northcards, .northscore{
+  display: flex;
+  justify-content: center;
+}
+
+.iameastplayer, .eastcards, .eastscore{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#playedcards, .northplayed, .eastplayed, .yourplayed, .westplayed, .name, .yourcards, .yourscore, .buttons, .turnindication, .trickwinner{
+  display: flex;
+  justify-content: center;
+}
+
+.playable{
+  border-style: dashed;
+  border-width: 8px;
+  border-color: blue;
+}
+
+.selected{
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+
+}
